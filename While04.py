@@ -11,7 +11,7 @@ def main(s):
     upper = ''
     while i < len(s):
         if s[i].isupper():
-            upper += s[i]
+            #upper += s[i]
             k += 1
         i += 1
     return k #len(upper)
