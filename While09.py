@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    sum_digits = 0
+    while i < len(s):
+        sum_digits += int(s[i])
+        i += 1
+    return sum_digits
