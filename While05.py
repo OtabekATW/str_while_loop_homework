@@ -11,7 +11,7 @@ def main(s):
     lower = ''
     while i < len(s):
         if s[i].islower():
-            lower += s[i]
+            #lower += s[i]
             k += 1
         i += 1
-    return k
+    return k #len(lower) 
